@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+}
+.header-container{
+    margin: 10px 30px 0 30px;
+}
+.header{
+    display: flex;
+    position: relative;
+}
+
+.header img{
+    object-fit: cover;
+    margin-left: 20px;
+    width: 600px;
+}
+.header-menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px 10px 15px;
+}
+.header h1{
+    top:20px;
+    right:10px;
+    position: absolute;
+}
+.header-menu{
+    background-color: rgba(81, 73, 68,0.4);
+    font: 500 16px/26px "arial", sans-serif;
+}
+
+/*main*/
+.main{
+    background-color: rgba(18, 12, 12,0.8);
+    margin: 0 30px;
+    color: rgba(255, 255, 255,1);
+    font: 400 16px/20px "arial", sans-serif;
+}
+.hotnews{
+    display: flex;
+    margin: 0 30px;
+}
+.imgnews img{
+    margin: 0 20px 10px 10px;
+}
+.textnews .title{
+    background-color: rgb(206, 232, 10);
+    color: rgba(18, 12, 12,0.8);
+}
+#email{
+    width: 50%;
+}
+#com{
+    width: 60%;
+}
+.item{
+    width: 20%;
+    margin: 0 40px;
+}
+.news{
+    display: flex;
+    margin-top: 20px;
+}
+.news .title{
+    text-align: center;
+}
+.item img{
+    object-fit: cover;
+}
